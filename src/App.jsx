@@ -558,7 +558,7 @@ export default function App() {
     if (logoClicks.current >= 5) { logoClicks.current = 0; setShowLogin(true); }
   };
 
-  const copyIP = () => { navigator.clipboard?.writeText("play.arzone.online"); setCopied(true); setTimeout(() => setCopied(false), 2000); };
+  const copyIP = () => { navigator.clipboard?.writeText("arzone.online"); setCopied(true); setTimeout(() => setCopied(false), 2000); };
 
   const allPerks = ["Kit periódico", "Homes extras", "/hat", "/craft", "/ec portátil", "/fly lobby", "/fly survival", "/feed y /heal", "Nick con colores", "Cola prioritaria", "Eventos anticipados"];
   const compMap = [[true, true, true], ["3", "6", "10"], [true, true, true], [true, true, true], [false, true, true], [false, true, true], [false, false, true], [false, false, true], [false, false, true], [false, true, true], [false, false, true]];
