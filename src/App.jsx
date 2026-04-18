@@ -576,7 +576,7 @@ export default function App() {
         </div>
         <div style={{ display: "flex", alignItems: "center", gap: 16, flexWrap: "wrap" }}>
           <Status />
-          <a href="https://discord.gg/arzone" target="_blank" rel="noreferrer" style={{ fontSize: 13, color: "var(--muted)", textDecoration: "none", fontWeight: 600, padding: "6px 16px", borderRadius: 10, border: "1px solid rgba(255,255,255,.06)" }}>Discord</a>
+          <a href="https://discord.arzone.online" target="_blank" rel="noreferrer" style={{ fontSize: 13, color: "var(--muted)", textDecoration: "none", fontWeight: 600, padding: "6px 16px", borderRadius: 10, border: "1px solid rgba(255,255,255,.06)" }}>Discord</a>
         </div>
       </nav>
 
