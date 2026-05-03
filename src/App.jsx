@@ -593,7 +593,7 @@ export default function App() {
         </p>
         <div style={{ display: "flex", justifyContent: "center", gap: 12, flexWrap: "wrap" }}>
           <a href="#rangos" style={{ padding: "15px 36px", borderRadius: 14, background: "linear-gradient(135deg,#818cf8,#c084fc)", color: "#fff", fontSize: 15, fontWeight: 600, textDecoration: "none", boxShadow: "0 8px 32px rgba(129,140,248,.25)" }}>Ver rangos</a>
-          <button onClick={copyIP} style={{ padding: "15px 36px", borderRadius: 14, background: "rgba(255,255,255,.04)", border: "1px solid rgba(255,255,255,.08)", color: "var(--muted)", fontSize: 15, fontWeight: 600, cursor: "pointer", fontFamily: "'Sora',sans-serif" }}>{copied ? "¡IP Copiada!" : "play.arzone.online"}</button>
+          <button onClick={copyIP} style={{ padding: "15px 36px", borderRadius: 14, background: "rgba(255,255,255,.04)", border: "1px solid rgba(255,255,255,.08)", color: "var(--muted)", fontSize: 15, fontWeight: 600, cursor: "pointer", fontFamily: "'Sora',sans-serif" }}>{copied ? "¡IP Copiada!" : "arzone.online"}</button>
         </div>
       </Sec>
 
