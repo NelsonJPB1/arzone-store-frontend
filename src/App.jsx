@@ -8,7 +8,7 @@ const TEBEX_API = `https://headless.tebex.io/api/accounts/${TEBEX_TOKEN}`;
 const TEBEX_STORE = "https://arzone.tebex.io";
 
 const SERVER_IP = "arzone.online";
-const DISCORD_URL = "https://discord.gg/arzone";
+const DISCORD_URL = "https://discord.arzone.online";
 
 /* Mapeo visual por ID de paquete (lo único que editas manualmente)
    Los nombres, precios y beneficios vienen de Tebex automáticamente */
